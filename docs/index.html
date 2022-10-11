@@ -38,7 +38,7 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<link rel="icon" href="https://github.com/workflowr/workflowr-assets/raw/master/img/reproducible.png">
+<link rel="icon" href="https://github.com/workflowr/workflowr-assets/raw/main/img/reproducible.png">
 <!-- Add a small amount of space between sections. -->
 <style type="text/css">
 div.section {
@@ -404,8 +404,7 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Transcriptomic analysis of CTC at different
-timepoints</h1>
+<h1 class="title toc-ignore">Transcriptomic analysis of CTC at different timepoints</h1>
 <h4 class="author">Francesc Castro-Giner</h4>
 
 </div>
@@ -413,9 +412,7 @@ timepoints</h1>
 
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
-<span class="glyphicon glyphicon-list" aria-hidden="true"></span>
-workflowr <span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span>
+<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span>
 </button>
 </p>
 <div id="workflowr-report" class="collapse">
@@ -424,9 +421,7 @@ aria-hidden="true"></span>
 <a data-toggle="tab" href="#summary">Summary</a>
 </li>
 <li>
-<a data-toggle="tab" href="#checks"> Checks <span
-class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
-</a>
+<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> </a>
 </li>
 <li>
 <a data-toggle="tab" href="#versions">Past versions</a>
@@ -435,28 +430,17 @@ class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2022-05-12
+<strong>Last updated:</strong> 2022-10-11
 </p>
 <p>
-<strong>Checks:</strong> <span
-class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 2
-<span class="glyphicon glyphicon-exclamation-sign text-danger"
-aria-hidden="true"></span> 0
+<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 1 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 1
 </p>
 <p>
-<strong>Knit directory:</strong>
-<code>diamantopoulou-ctc-dynamics/</code> <span
-class="glyphicon glyphicon-question-sign" aria-hidden="true"
-title="This is the local directory in which the code in this file was executed.">
-</span>
+<strong>Knit directory:</strong> <code>diamantopoulou-ctc-dynamics/</code> <span class="glyphicon glyphicon-question-sign" aria-hidden="true" title="This is the local directory in which the code in this file was executed."> </span>
 </p>
 <p>
-This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a>
-analysis was created with <a
-  href="https://github.com/jdblischak/workflowr">workflowr</a> (version
-1.6.2). The <em>Checks</em> tab describes the reproducibility checks
-that were applied when the results were created. The <em>Past
-versions</em> tab lists the development history.
+This reproducible <a href="https://rmarkdown.rstudio.com">R Markdown</a> analysis was created with <a
+  href="https://github.com/workflowr/workflowr">workflowr</a> (version 1.7.0). The <em>Checks</em> tab describes the reproducibility checks that were applied when the results were created. The <em>Past versions</em> tab lists the development history.
 </p>
 <hr>
 </div>
@@ -465,80 +449,54 @@ versions</em> tab lists the development history.
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate">
-<span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date
-</a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguncommittedchanges"> <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> <strong>R Markdown file:</strong> uncommitted changes </a>
 </p>
 </div>
-<div id="strongRMarkdownfilestronguptodate"
-class="panel-collapse collapse">
+<div id="strongRMarkdownfilestronguncommittedchanges" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Great! Since the R Markdown file has been committed to the Git
-repository, you know the exact version of the code that produced these
-results.</p>
+<p>The R Markdown file has unstaged changes. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
 </div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomTheAcetoLabdiamantopoulouctcdynamicstreea747dafe593866c3da003315f4b625c571838db5targetblanka747dafa">
-<span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>Repository version:</strong>
-<a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics/tree/a747dafe593866c3da003315f4b625c571838db5" target="_blank">a747daf</a>
-</a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomVUQCBdiamantopoulouctcdynamicstreefab1e6de47ddadd8f2c90ffd268658040582945btargetblankfab1e6da"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/VU-QCB/diamantopoulou-ctc-dynamics/tree/fab1e6de47ddadd8f2c90ffd268658040582945b" target="_blank">fab1e6d</a> </a>
 </p>
 </div>
-<div
-id="strongRepositoryversionstrongahrefhttpsgithubcomTheAcetoLabdiamantopoulouctcdynamicstreea747dafe593866c3da003315f4b625c571838db5targetblanka747dafa"
-class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomVUQCBdiamantopoulouctcdynamicstreefab1e6de47ddadd8f2c90ffd268658040582945btargetblankfab1e6da" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
-Great! You are using Git for version control. Tracking code development
-and connecting the code version to the results is critical for
-reproducibility.
+Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version
-<a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics/tree/a747dafe593866c3da003315f4b625c571838db5" target="_blank">a747daf</a>.
-See the <em>Past versions</em> tab to see a history of the changes made
-to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/VU-QCB/diamantopoulou-ctc-dynamics/tree/fab1e6de47ddadd8f2c90ffd268658040582945b" target="_blank">fab1e6d</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
-Note that you need to be careful to ensure that all relevant files for
-the analysis have been committed to Git prior to generating the results
-(you can use <code>wflow_publish</code> or
-<code>wflow_git_commit</code>). workflowr only checks the R Markdown
-file, but you know if there are other scripts or data files that it
-depends on. Below is the status of the Git repository when the results
-were generated:
+Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
 </p>
 <pre><code>
 Ignored files:
-    Ignored:    .Rhistory
+    Ignored:    .DS_Store
     Ignored:    .Rproj.user/
+    Ignored:    analysis/.DS_Store
+    Ignored:    code/.DS_Store
+    Ignored:    code/R-functions/.DS_Store
+    Ignored:    data/differential_expression/
+    Ignored:    data/patients/
+    Ignored:    data/resources/
+    Ignored:    data/sce/
 
 Untracked files:
-    Untracked:  analysis/0_differential_expression_gsea_gsva.md
-    Untracked:  analysis/about.md
-    Untracked:  analysis/br16_dge.md
-    Untracked:  analysis/br16_pca.md
-    Untracked:  analysis/core_gene_sets.md
-    Untracked:  analysis/gsea_across_models.md
     Untracked:  analysis/index.md
-    Untracked:  analysis/license.md
-    Untracked:  analysis/patients_ctc_counts_distribution.md
-    Untracked:  data/differential_expression/
-    Untracked:  data/patients/
-    Untracked:  data/resources/
-    Untracked:  data/sce/
+    Untracked:  code/R-functions/install_reqd_pkgs.r
+
+Unstaged changes:
+    Modified:   analysis/index.Rmd
 
 </code></pre>
 <p>
-Note that any generated files, e.g. HTML, png, CSS, etc., are not
-included in this status report because it is ok for generated content to
-have uncommitted changes.
+Note that any generated files, e.g. HTML, png, CSS, etc., are not included in this status report because it is ok for generated content to have uncommitted changes.
 </p>
 </div>
 </div>
@@ -549,11 +507,7 @@ have uncommitted changes.
 <div id="versions" class="tab-pane fade">
 
 <p>
-These are the previous versions of the repository in which changes were
-made to the R Markdown (<code>analysis/index.Rmd</code>) and HTML
-(<code>docs/index.html</code>) files. If you’ve configured a remote Git
-repository (see <code>?wflow_git_remote</code>), click on the hyperlinks
-in the table below to view the files as they were in that past version.
+These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/index.Rmd</code>) and HTML (<code>docs/index.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
 </p>
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
@@ -582,7 +536,41 @@ Message
 html
 </td>
 <td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/1fc87b5937dd4e880b8ee9f151f8f8ab6a5c0b3a/docs/index.html" target="_blank">1fc87b5</a>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/e3cc57d99de30669acb505180f10287b686ddf93/docs/index.html" target="_blank">e3cc57d</a>
+</td>
+<td>
+GitHub
+</td>
+<td>
+2022-06-28
+</td>
+<td>
+Update index.html
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/41453ae72586bc287e8d7d9e634aa81822737479/docs/index.html" target="_blank">41453ae</a>
+</td>
+<td>
+fcg-bio
+</td>
+<td>
+2022-05-12
+</td>
+<td>
+Build site.
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/1fc87b5937dd4e880b8ee9f151f8f8ab6a5c0b3a/docs/index.html" target="_blank">1fc87b5</a>
 </td>
 <td>
 fcg-bio
@@ -599,7 +587,7 @@ Build site.
 html
 </td>
 <td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/8fb5513f546f6646b28b879c3611e491e358b4cd/docs/index.html" target="_blank">8fb5513</a>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/8fb5513f546f6646b28b879c3611e491e358b4cd/docs/index.html" target="_blank">8fb5513</a>
 </td>
 <td>
 fcg-bio
@@ -616,7 +604,7 @@ Build site.
 html
 </td>
 <td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/8acaa646eebff98e6160ded07ba48258d757e6d7/docs/index.html" target="_blank">8acaa64</a>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/8acaa646eebff98e6160ded07ba48258d757e6d7/docs/index.html" target="_blank">8acaa64</a>
 </td>
 <td>
 fcg-bio
@@ -633,7 +621,7 @@ Build site.
 Rmd
 </td>
 <td>
-<a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics/blob/545ee28878a043453ec828b26ef18d6c110d8906/analysis/index.Rmd" target="_blank">545ee28</a>
+<a href="https://github.com/VU-QCB/diamantopoulou-ctc-dynamics/blob/545ee28878a043453ec828b26ef18d6c110d8906/analysis/index.Rmd" target="_blank">545ee28</a>
 </td>
 <td>
 fcg-bio
@@ -650,7 +638,7 @@ release v1.0
 html
 </td>
 <td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/545ee28878a043453ec828b26ef18d6c110d8906/docs/index.html" target="_blank">545ee28</a>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/545ee28878a043453ec828b26ef18d6c110d8906/docs/index.html" target="_blank">545ee28</a>
 </td>
 <td>
 fcg-bio
@@ -667,7 +655,7 @@ release v1.0
 html
 </td>
 <td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/74b189131a39d49fd9e79eaee6c8e76575069de6/docs/index.html" target="_blank">74b1891</a>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/74b189131a39d49fd9e79eaee6c8e76575069de6/docs/index.html" target="_blank">74b1891</a>
 </td>
 <td>
 fcg-bio
@@ -684,7 +672,7 @@ Build site.
 Rmd
 </td>
 <td>
-<a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics/blob/34ee51371a3786d0f18c3d2c11ec3e41b9f8ea4c/analysis/index.Rmd" target="_blank">34ee513</a>
+<a href="https://github.com/VU-QCB/diamantopoulou-ctc-dynamics/blob/34ee51371a3786d0f18c3d2c11ec3e41b9f8ea4c/analysis/index.Rmd" target="_blank">34ee513</a>
 </td>
 <td>
 fcg-bio
@@ -701,7 +689,7 @@ Update index with navbar and DOIs
 html
 </td>
 <td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/bfb622b5aac934265e71dc66dd5a0985a4fca3d1/docs/index.html" target="_blank">bfb622b</a>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/bfb622b5aac934265e71dc66dd5a0985a4fca3d1/docs/index.html" target="_blank">bfb622b</a>
 </td>
 <td>
 fcg-bio
@@ -718,75 +706,7 @@ Build site.
 html
 </td>
 <td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/5dc02788c3fa12e0edce46d9a9eb670fec8cc19f/docs/index.html" target="_blank">5dc0278</a>
-</td>
-<td>
-fcg-bio
-</td>
-<td>
-2022-04-26
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics/blob/c889911ccbd205a5c5ae3c0a0c13e4039f0b03b0/analysis/index.Rmd" target="_blank">c889911</a>
-</td>
-<td>
-fcg-bio
-</td>
-<td>
-2022-04-26
-</td>
-<td>
-Added final code
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/c889911ccbd205a5c5ae3c0a0c13e4039f0b03b0/docs/index.html" target="_blank">c889911</a>
-</td>
-<td>
-fcg-bio
-</td>
-<td>
-2022-04-26
-</td>
-<td>
-Added final code
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/a1ff2cdd3eeea7b524377b7838d06d6025710b7a/docs/index.html" target="_blank">a1ff2cd</a>
-</td>
-<td>
-fcg-bio
-</td>
-<td>
-2022-04-25
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/4277859c29b16dbb3e8abaa66d86e268df0a820e/docs/index.html" target="_blank">4277859</a>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/5dc02788c3fa12e0edce46d9a9eb670fec8cc19f/docs/index.html" target="_blank">5dc0278</a>
 </td>
 <td>
 fcg-bio
@@ -803,7 +723,75 @@ Build site.
 Rmd
 </td>
 <td>
-<a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics/blob/d9e45e9aab7c5c0ec86bc50c9a7f493aeab82662/analysis/index.Rmd" target="_blank">d9e45e9</a>
+<a href="https://github.com/VU-QCB/diamantopoulou-ctc-dynamics/blob/c889911ccbd205a5c5ae3c0a0c13e4039f0b03b0/analysis/index.Rmd" target="_blank">c889911</a>
+</td>
+<td>
+fcg-bio
+</td>
+<td>
+2022-04-25
+</td>
+<td>
+Added final code
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/c889911ccbd205a5c5ae3c0a0c13e4039f0b03b0/docs/index.html" target="_blank">c889911</a>
+</td>
+<td>
+fcg-bio
+</td>
+<td>
+2022-04-25
+</td>
+<td>
+Added final code
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/a1ff2cdd3eeea7b524377b7838d06d6025710b7a/docs/index.html" target="_blank">a1ff2cd</a>
+</td>
+<td>
+fcg-bio
+</td>
+<td>
+2022-04-25
+</td>
+<td>
+Build site.
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/4277859c29b16dbb3e8abaa66d86e268df0a820e/docs/index.html" target="_blank">4277859</a>
+</td>
+<td>
+fcg-bio
+</td>
+<td>
+2022-04-25
+</td>
+<td>
+Build site.
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/VU-QCB/diamantopoulou-ctc-dynamics/blob/d9e45e9aab7c5c0ec86bc50c9a7f493aeab82662/analysis/index.Rmd" target="_blank">d9e45e9</a>
 </td>
 <td>
 fcg-bio
@@ -824,88 +812,41 @@ Start workflowr project.
 </div>
 <div id="publication" class="section level2">
 <h2>Publication</h2>
-<p>Diamantopoulou, Z., Castro-Giner, F., Schwab F.D., Foerster C.,
-Saini, M., Budinjas, S., Strittmatter, K., Krol, I., Seifert, B.,
-Heinzelmann-Schwarz, V., Kurzeder, C., Rochlitz, C., Vetter, M., Weber,
-W.P., &amp; Aceto N. The metastatic spread of breast cancer accelerates during sleep. Nature, 2022.</p>
+<p>Diamantopoulou, Z., Castro-Giner, F., Schwab F.D., Foerster C., Saini, M., Budinjas, S., Strittmatter, K., Krol, I., Seifert, B., Heinzelmann-Schwarz, V., Kurzeder, C., Rochlitz, C., Vetter, M., Weber, W.P., &amp; Aceto N. The metastatic spread of breast cancer is accomplished during sleep time. (2022)</p>
 </div>
 <div id="abstract" class="section level2">
 <h2>Abstract</h2>
-<p>We isolated live circulating tumor cells (CTCs) from a breast cancer
-patient (number of CTCs = 36) and two breast cancer xenografts,
-NSG-CDX-BR16 (number of CTCs = 138) and NSG-LM2 (number of CTCs = 108)
-at different time points. Isolated CTCs were categorized into three
-different types : single CTC, CTC clusters and CTC-white blood cells
-(CTC-WBC) clusters. Amplified cDNA was prepared according to the
-Smart-seq2 protocol. Libraries were prepared using with Nextera XT
-(Illumina) and sequenced on Illumina NextSeq500 instrument in 75-bp
-single-read mode.</p>
+<p>We isolated live circulating tumor cells (CTCs) from a breast cancer patient (number of CTCs = 36) and two breast cancer xenografts, NSG-CDX-BR16 (number of CTCs = 138) and NSG-LM2 (number of CTCs = 108) at different time points. Isolated CTCs were categorized into three different types : single CTC, CTC clusters and CTC-white blood cells (CTC-WBC) clusters. Amplified cDNA was prepared according to the Smart-seq2 protocol. Libraries were prepared using with Nextera XT (Illumina) and sequenced on Illumina NextSeq500 instrument in 75-bp single-read mode.</p>
 </div>
 <div id="data-pre-processing" class="section level2">
 <h2>Data pre-processing</h2>
-<p>Raw data is available at Gene Expression Omnibus (GEO, NCBI;
-accession number <a
-href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180097">GSE180097</a>).
-Data processing is computationally expensive and is not covered in this
-repository. We provide description of the data pre-processing workflow
-together with software version in the original publication. Processed
-data, large result files, additional functions, references and metadata
-are were archived at <a
-href="https://doi.org/10.5281/zenodo.6358987"><img
-src="https://zenodo.org/badge/DOI/10.5281/zenodo.6358987.svg"
-alt="DOI" /></a></p>
+<p>Raw data is available at Gene Expression Omnibus (GEO, NCBI; accession number <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180097">GSE180097</a>). Data processing is computationally expensive and is not covered in this repository. We provide description of the data pre-processing workflow together with software version in the original publication. Processed data, large result files, additional functions, references and metadata are were archived at <a href="https://doi.org/10.5281/zenodo.6358987"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6358987.svg" alt="DOI" /></a></p>
 </div>
 <div id="data-and-code-availability" class="section level2">
 <h2>Data and code availability</h2>
-<p>To reproduce our analysis, first clone source code from the <a
-href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics">GitHub
-repository</a>. This repository is also archived at <a
-href="https://doi.org/10.5281/zenodo.6484917"><img
-src="https://zenodo.org/badge/DOI/10.5281/zenodo.6484917.svg"
-alt="DOI" /></a></p>
+<p>To reproduce our analysis, first clone source code from the <a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics">GitHub repository</a>. This repository is also archived at <a href="https://doi.org/10.5281/zenodo.6484917"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6484917.svg" alt="DOI" /></a></p>
 <pre><code>git clone https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics.git</code></pre>
-<p>Next, download processed data deposited in <a
-href="https://doi.org/10.5281/zenodo.6358987">Zenodo</a> into the cloned
-project folder ./data directory and untar the files.</p>
+<p>Next, download processed data deposited in <a href="https://doi.org/10.5281/zenodo.6358987">Zenodo</a> into the cloned project folder ./data directory and untar the files.</p>
 <pre><code>for file in *.tar.gz; do tar xzvf &quot;${file}&quot; &amp;&amp; rm &quot;${file}&quot;; done</code></pre>
 </div>
 <div id="reproducibility" class="section level2">
 <h2>Reproducibility</h2>
-<p>The results form our analyses are listed below in webpage format.
-They were generated from R Markdown documents deposited in the <a
-href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics">GitHub
-repository</a>. The workflow of the analysis was created using the <a
-href="https://cran.r-project.org/web/packages/workflowr/index.html">workflowr</a>
-R package and can be reproduced in its totality using <a
-href="https://cran.r-project.org/web/packages/workflowr/index.html">workflowr</a>
-<a
-href="https://jdblischak.github.io/workflowrBeta/reference/wflow_build.html">wflow_build</a>
-command after the installation of the proper R packages. Session info,
-including R and package versions, was automatically included at the end
-of each analysis file.</p>
-<p>Files containing pre-computed results from differential expression or
-gene-set enrichment analyses were deposited in <a
-href="https://doi.org/10.5281/zenodo.6358987"><img
-src="https://zenodo.org/badge/DOI/10.5281/zenodo.6358987.svg"
-alt="DOI" /></a>. In order to generate those files again change the
-option <code>eval = FALSE</code> to <code>eval = TRUE</code> in the
-specific code chunk from the R Markdown file.</p>
+<p>The results form our analyses are listed below in webpage format. They were generated from R Markdown documents deposited in the <a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics">GitHub repository</a>. The workflow of the analysis was created using the <a href="https://cran.r-project.org/web/packages/workflowr/index.html">workflowr</a> R package and can be reproduced in its totality using <a href="https://cran.r-project.org/web/packages/workflowr/index.html">workflowr</a> <a href="https://jdblischak.github.io/workflowrBeta/reference/wflow_build.html">wflow_build</a> command after the installation of the proper R packages. Session info, including R and package versions, was automatically included at the end of each analysis file.</p>
+<p>Files containing pre-computed results from differential expression or gene-set enrichment analyses were deposited in <a href="https://doi.org/10.5281/zenodo.6358987"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6358987.svg" alt="DOI" /></a>. In order to generate those files again change the option <code>eval = FALSE</code> to <code>eval = TRUE</code> in the specific code chunk from the R Markdown file.</p>
+</div>
+<div id="package-installation" class="section level2">
+<h2>Package installation</h2>
+<p>To install all required packages automatically, use: <code>source("./code/R-functions/install_reqd_pkgs.r", chdir = TRUE)</code></p>
 </div>
 <div id="analyses" class="section level2">
 <h2>Analyses</h2>
 <ul>
-<li><a href="0_differential_expression_gsea_gsva.html">Run differential
-gene expression analysis, GSEA and GSVA</a></li>
-<li><a href="patients_ctc_counts_distribution.html">CTC counts
-distribution in breast cancer patients</a></li>
-<li><a href="br16_pca.html">PCA analysis of CTC gene expression in
-NSG-CDX-BR16 mice</a></li>
-<li><a href="br16_dge.html">Differential gene expression report for
-NSG-CDX-BR16 data</a></li>
-<li><a href="gsea_across_models.html">Report of GSEA and GSVA analysis
-in NSG-CDX-BR16, NSG-LM2, Patient and NSG-LM2 time kinetics</a></li>
-<li><a href="core_gene_sets.html">Analysis of genes from candidate
-pathways</a></li>
+<li><a href="0_differential_expression_gsea_gsva.html">Run differential gene expression analysis, GSEA and GSVA</a></li>
+<li><a href="patients_ctc_counts_distribution.html">CTC counts distribution in breast cancer patients</a></li>
+<li><a href="br16_pca.html">PCA analysis of CTC gene expression in NSG-CDX-BR16 mice</a></li>
+<li><a href="br16_dge.html">Differential gene expression report for NSG-CDX-BR16 data</a></li>
+<li><a href="gsea_across_models.html">Report of GSEA and GSVA analysis in NSG-CDX-BR16, NSG-LM2, Patient and NSG-LM2 time kinetics</a></li>
+<li><a href="core_gene_sets.html">Analysis of genes from candidate pathways</a></li>
 </ul>
 </div>
 <div id="paper-figures-and-tables" class="section level2">
@@ -913,69 +854,33 @@ pathways</a></li>
 <ul>
 <li>Main figures
 <ul>
-<li><a
-href="patients_ctc_counts_distribution.html#Plot_polar_distribution">Figure
-1a</a></li>
+<li><a href="patients_ctc_counts_distribution.html#Plot_polar_distribution">Figure 1a</a></li>
 <li><a href="br16_pca.html#Biplot_PC4_and_PC5">Figure 3b</a></li>
-<li><a
-href="br16_dge.html#Heatmap_diferential_expression_NSG-CDX-BR16_mice">Figure
-3c</a></li>
-<li><a
-href="gsea_across_models.html#Similarity_matrix_without_row_names">Figure
-3d</a></li>
-<li><a
-href="gsea_across_models.html#GSEA_for_NSG-CDX-BR16_and_NSG-LM2">Figure
-3e</a></li>
-<li><a href="gsea_across_models.html#GSEA_for_Patient">Figure
-3f</a></li>
-<li><a
-href="gsea_across_models.html#Average_GSVA_score_across_time_series">Figure
-3g</a></li>
+<li><a href="br16_dge.html#Heatmap_diferential_expression_NSG-CDX-BR16_mice">Figure 3c</a></li>
+<li><a href="gsea_across_models.html#Similarity_matrix_without_row_names">Figure 3d</a></li>
+<li><a href="gsea_across_models.html#GSEA_for_NSG-CDX-BR16_and_NSG-LM2">Figure 3e</a></li>
+<li><a href="gsea_across_models.html#GSEA_for_Patient">Figure 3f</a></li>
+<li><a href="gsea_across_models.html#Average_GSVA_score_across_time_series">Figure 3g</a></li>
 </ul></li>
 <li>Extended data figures
 <ul>
-<li><a
-href="br16_pca.html#Correlation_of_PC_eigenvectors_with_metadata">Extended
-data Figure 6a</a></li>
-<li><a
-href="br16_dge.html#Correlation_DEG_single_CTC_versus_CTC_clusters_and_CTC-WBC">Extended
-data Figure 6b</a></li>
-<li><a
-href="br16_dge.html#Compare_DEG_CTC_versus_CTC_clusters_and_CTC-WBC">Extended
-data Figure 6c</a></li>
-<li><a
-href="gsea_across_models.html#Similarity_matrix_with_row_names">Extended
-data Figure 6d</a></li>
-<li><a
-href="gsea_across_models.html#GSEA_for_NSG-CDX-BR16,_NSG-LM2_and_patient">Extended
-data Figure 6e</a></li>
-<li><a
-href="gsea_across_models.html#GSVA_score_across_time_series">Extended
-data Figure 6f</a></li>
-<li><a
-href="core_gene_sets.html#Expression_distribution_of_core_circadian_genes_in_NSG-CDX-BR16">Extended
-data Figure 8a</a></li>
-<li><a
-href="core_gene_sets.html#Expression_of_TEAD_genes_in_CTCs_from_NSG-CDX-BR16">Extended
-data Figure 8b</a></li>
-<li><a
-href="core_gene_sets.html#Expression_of_receptors_activated_by_circadian_rhythm_regulated_ligands">Extended
-data Figure 9b</a></li>
+<li><a href="br16_pca.html#Correlation_of_PC_eigenvectors_with_metadata">Extended data Figure 6a</a></li>
+<li><a href="br16_dge.html#Correlation_DEG_single_CTC_versus_CTC_clusters_and_CTC-WBC">Extended data Figure 6b</a></li>
+<li><a href="br16_dge.html#Compare_DEG_CTC_versus_CTC_clusters_and_CTC-WBC">Extended data Figure 6c</a></li>
+<li><a href="gsea_across_models.html#Similarity_matrix_with_row_names">Extended data Figure 6d</a></li>
+<li><a href="gsea_across_models.html#GSEA_for_NSG-CDX-BR16,_NSG-LM2_and_patient">Extended data Figure 6e</a></li>
+<li><a href="gsea_across_models.html#GSVA_score_across_time_series">Extended data Figure 6f</a></li>
+<li><a href="core_gene_sets.html#Expression_distribution_of_core_circadian_genes_in_NSG-CDX-BR16">Extended data Figure 8a</a></li>
+<li><a href="core_gene_sets.html#Expression_of_TEAD_genes_in_CTCs_from_NSG-CDX-BR16">Extended data Figure 8b</a></li>
+<li><a href="core_gene_sets.html#Expression_of_receptors_activated_by_circadian_rhythm_regulated_ligands">Extended data Figure 9b</a></li>
 </ul></li>
 <li>Supplementary tables
 <ul>
-<li><a
-href="br16_dge.html#Genes_differentially_expressed_in_CTCs_of_NSG-CDX-BR16">Supplementary
-Table 2</a></li>
-<li><a
-href="gsea_across_models.html#NSG-CDX-BR16_GSEA_results">Supplementary
-Table 3</a></li>
-<li><a href="gsea_across_models.html#Table_GSEA_in_NSG-LM2">Source data
-for Figure 3e, right panel</a></li>
-<li><a href="gsea_across_models.html#Table_GSEA_in_Patients">Source data
-for Figure 3f</a></li>
-<li><a href="gsea_across_models.html#GSVA_table_of_results">Source data
-for Figure 3g</a></li>
+<li><a href="br16_dge.html#Genes_differentially_expressed_in_CTCs_of_NSG-CDX-BR16">Supplementary Table 2</a></li>
+<li><a href="gsea_across_models.html#NSG-CDX-BR16_GSEA_results">Supplementary Table 3</a></li>
+<li><a href="gsea_across_models.html#Table_GSEA_in_NSG-LM2">Source data for Figure 3e, right panel</a></li>
+<li><a href="gsea_across_models.html#Table_GSEA_in_Patients">Source data for Figure 3f</a></li>
+<li><a href="gsea_across_models.html#GSVA_table_of_results">Source data for Figure 3g</a></li>
 </ul></li>
 </ul>
 </div>
@@ -983,7 +888,7 @@ for Figure 3g</a></li>
 
 <!-- Adjust MathJax settings so that all math formulae are shown using
 TeX fonts only; see
-http://docs.mathjax.org/en/latest/configuration.html.  This will make
+https://docs.mathjax.org/en/latest/web/configuration.html. This will make
 the presentation more consistent at the cost of the webpage sometimes
 taking slightly longer to load. Note that this only works because the
 footer is added to webpages before the MathJax javascript. -->

@@ -41,7 +41,7 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<link rel="icon" href="https://github.com/workflowr/workflowr-assets/raw/master/img/reproducible.png">
+<link rel="icon" href="https://github.com/workflowr/workflowr-assets/raw/main/img/reproducible.png">
 <!-- Add a small amount of space between sections. -->
 <style type="text/css">
 div.section {
@@ -511,8 +511,7 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">PCA of gene expression in CTCs from
-NSG-CDX-BR16 mice</h1>
+<h1 class="title toc-ignore">PCA of gene expression in CTCs from NSG-CDX-BR16 mice</h1>
 <h4 class="author">Francesc Castro-Giner</h4>
 <h4 class="date">2022-02-23</h4>
 
@@ -521,9 +520,7 @@ NSG-CDX-BR16 mice</h1>
 
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
-<span class="glyphicon glyphicon-list" aria-hidden="true"></span>
-workflowr <span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span>
+<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
 </button>
 </p>
 <div id="workflowr-report" class="collapse">
@@ -532,9 +529,7 @@ aria-hidden="true"></span>
 <a data-toggle="tab" href="#summary">Summary</a>
 </li>
 <li>
-<a data-toggle="tab" href="#checks"> Checks <span
-class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
-</a>
+<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> </a>
 </li>
 <li>
 <a data-toggle="tab" href="#versions">Past versions</a>
@@ -543,28 +538,17 @@ class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2022-05-12
+<strong>Last updated:</strong> 2022-10-11
 </p>
 <p>
-<strong>Checks:</strong> <span
-class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7
-<span class="glyphicon glyphicon-exclamation-sign text-danger"
-aria-hidden="true"></span> 0
+<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
 </p>
 <p>
-<strong>Knit directory:</strong>
-<code>diamantopoulou-ctc-dynamics/</code> <span
-class="glyphicon glyphicon-question-sign" aria-hidden="true"
-title="This is the local directory in which the code in this file was executed.">
-</span>
+<strong>Knit directory:</strong> <code>diamantopoulou-ctc-dynamics/</code> <span class="glyphicon glyphicon-question-sign" aria-hidden="true" title="This is the local directory in which the code in this file was executed."> </span>
 </p>
 <p>
-This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a>
-analysis was created with <a
-  href="https://github.com/jdblischak/workflowr">workflowr</a> (version
-1.6.2). The <em>Checks</em> tab describes the reproducibility checks
-that were applied when the results were created. The <em>Past
-versions</em> tab lists the development history.
+This reproducible <a href="https://rmarkdown.rstudio.com">R Markdown</a> analysis was created with <a
+  href="https://github.com/workflowr/workflowr">workflowr</a> (version 1.7.0). The <em>Checks</em> tab describes the reproducibility checks that were applied when the results were created. The <em>Past versions</em> tab lists the development history.
 </p>
 <hr>
 </div>
@@ -573,164 +557,115 @@ versions</em> tab lists the development history.
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate">
-<span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date
-</a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date </a>
 </p>
 </div>
-<div id="strongRMarkdownfilestronguptodate"
-class="panel-collapse collapse">
+<div id="strongRMarkdownfilestronguptodate" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Great! Since the R Markdown file has been committed to the Git
-repository, you know the exact version of the code that produced these
-results.</p>
+<p>Great! Since the R Markdown file has been committed to the Git repository, you know the exact version of the code that produced these results.</p>
 </div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongEnvironmentstrongempty">
-<span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>Environment:</strong> empty </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongEnvironmentstrongempty"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Environment:</strong> empty </a>
 </p>
 </div>
 <div id="strongEnvironmentstrongempty" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Great job! The global environment was empty. Objects defined in the
-global environment can affect the analysis in your R Markdown file in
-unknown ways. For reproduciblity it’s best to always run the code in an
-empty environment.</p>
+<p>Great job! The global environment was empty. Objects defined in the global environment can affect the analysis in your R Markdown file in unknown ways. For reproduciblity it’s best to always run the code in an empty environment.</p>
 </div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongSeedstrongcodesetseed20220425code">
-<span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>Seed:</strong>
-<code>set.seed(20220425)</code> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongSeedstrongcodesetseed20220425code"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Seed:</strong> <code>set.seed(20220425)</code> </a>
 </p>
 </div>
-<div id="strongSeedstrongcodesetseed20220425code"
-class="panel-collapse collapse">
+<div id="strongSeedstrongcodesetseed20220425code" class="panel-collapse collapse">
 <div class="panel-body">
-<p>The command <code>set.seed(20220425)</code> was run prior to running
-the code in the R Markdown file. Setting a seed ensures that any results
-that rely on randomness, e.g. subsampling or permutations, are
-reproducible.</p>
+<p>The command <code>set.seed(20220425)</code> was run prior to running the code in the R Markdown file. Setting a seed ensures that any results that rely on randomness, e.g. subsampling or permutations, are reproducible.</p>
 </div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongSessioninformationstrongrecorded">
-<span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>Session information:</strong>
-recorded </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongSessioninformationstrongrecorded"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Session information:</strong> recorded </a>
 </p>
 </div>
-<div id="strongSessioninformationstrongrecorded"
-class="panel-collapse collapse">
+<div id="strongSessioninformationstrongrecorded" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Great job! Recording the operating system, R version, and package
-versions is critical for reproducibility.</p>
+<p>Great job! Recording the operating system, R version, and package versions is critical for reproducibility.</p>
 </div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongCachestrongnone">
-<span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>Cache:</strong> none </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongCachestrongnone"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Cache:</strong> none </a>
 </p>
 </div>
 <div id="strongCachestrongnone" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Nice! There were no cached chunks for this analysis, so you can be
-confident that you successfully produced the results during this
-run.</p>
+<p>Nice! There were no cached chunks for this analysis, so you can be confident that you successfully produced the results during this run.</p>
 </div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongFilepathsstrongrelative">
-<span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>File paths:</strong> relative </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongFilepathsstrongrelative"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>File paths:</strong> relative </a>
 </p>
 </div>
 <div id="strongFilepathsstrongrelative" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Great job! Using relative paths to the files within your workflowr
-project makes it easier to run your code on other machines.</p>
+<p>Great job! Using relative paths to the files within your workflowr project makes it easier to run your code on other machines.</p>
 </div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomTheAcetoLabdiamantopoulouctcdynamicstreea747dafe593866c3da003315f4b625c571838db5targetblanka747dafa">
-<span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>Repository version:</strong>
-<a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics/tree/a747dafe593866c3da003315f4b625c571838db5" target="_blank">a747daf</a>
-</a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomVUQCBdiamantopoulouctcdynamicstreefab1e6de47ddadd8f2c90ffd268658040582945btargetblankfab1e6da"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/VU-QCB/diamantopoulou-ctc-dynamics/tree/fab1e6de47ddadd8f2c90ffd268658040582945b" target="_blank">fab1e6d</a> </a>
 </p>
 </div>
-<div
-id="strongRepositoryversionstrongahrefhttpsgithubcomTheAcetoLabdiamantopoulouctcdynamicstreea747dafe593866c3da003315f4b625c571838db5targetblanka747dafa"
-class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomVUQCBdiamantopoulouctcdynamicstreefab1e6de47ddadd8f2c90ffd268658040582945btargetblankfab1e6da" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
-Great! You are using Git for version control. Tracking code development
-and connecting the code version to the results is critical for
-reproducibility.
+Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version
-<a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics/tree/a747dafe593866c3da003315f4b625c571838db5" target="_blank">a747daf</a>.
-See the <em>Past versions</em> tab to see a history of the changes made
-to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/VU-QCB/diamantopoulou-ctc-dynamics/tree/fab1e6de47ddadd8f2c90ffd268658040582945b" target="_blank">fab1e6d</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
-Note that you need to be careful to ensure that all relevant files for
-the analysis have been committed to Git prior to generating the results
-(you can use <code>wflow_publish</code> or
-<code>wflow_git_commit</code>). workflowr only checks the R Markdown
-file, but you know if there are other scripts or data files that it
-depends on. Below is the status of the Git repository when the results
-were generated:
+Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
 </p>
 <pre><code>
 Ignored files:
-    Ignored:    .Rhistory
+    Ignored:    .DS_Store
     Ignored:    .Rproj.user/
+    Ignored:    analysis/.DS_Store
+    Ignored:    code/.DS_Store
+    Ignored:    code/R-functions/.DS_Store
+    Ignored:    data/differential_expression/
+    Ignored:    data/patients/
+    Ignored:    data/resources/
+    Ignored:    data/sce/
 
 Untracked files:
-    Untracked:  analysis/0_differential_expression_gsea_gsva.md
-    Untracked:  analysis/about.md
-    Untracked:  analysis/br16_dge.md
-    Untracked:  analysis/br16_pca.md
-    Untracked:  analysis/core_gene_sets.md
     Untracked:  analysis/gsea_across_models.md
     Untracked:  analysis/index.md
-    Untracked:  analysis/license.md
-    Untracked:  analysis/patients_ctc_counts_distribution.md
-    Untracked:  data/differential_expression/
-    Untracked:  data/patients/
-    Untracked:  data/resources/
-    Untracked:  data/sce/
+    Untracked:  code/R-functions/install_reqd_pkgs.r
+
+Unstaged changes:
+    Modified:   analysis/index.Rmd
 
 </code></pre>
 <p>
-Note that any generated files, e.g. HTML, png, CSS, etc., are not
-included in this status report because it is ok for generated content to
-have uncommitted changes.
+Note that any generated files, e.g. HTML, png, CSS, etc., are not included in this status report because it is ok for generated content to have uncommitted changes.
 </p>
 </div>
 </div>
@@ -741,12 +676,7 @@ have uncommitted changes.
 <div id="versions" class="tab-pane fade">
 
 <p>
-These are the previous versions of the repository in which changes were
-made to the R Markdown (<code>analysis/br16_pca.Rmd</code>) and HTML
-(<code>docs/br16_pca.html</code>) files. If you’ve configured a remote
-Git repository (see <code>?wflow_git_remote</code>), click on the
-hyperlinks in the table below to view the files as they were in that
-past version.
+These are the previous versions of the repository in which changes were made to the R Markdown (<code>analysis/br16_pca.Rmd</code>) and HTML (<code>docs/br16_pca.html</code>) files. If you’ve configured a remote Git repository (see <code>?wflow_git_remote</code>), click on the hyperlinks in the table below to view the files as they were in that past version.
 </p>
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
@@ -775,7 +705,24 @@ Message
 html
 </td>
 <td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/1fc87b5937dd4e880b8ee9f151f8f8ab6a5c0b3a/docs/br16_pca.html" target="_blank">1fc87b5</a>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/41453ae72586bc287e8d7d9e634aa81822737479/docs/br16_pca.html" target="_blank">41453ae</a>
+</td>
+<td>
+fcg-bio
+</td>
+<td>
+2022-05-12
+</td>
+<td>
+Build site.
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/1fc87b5937dd4e880b8ee9f151f8f8ab6a5c0b3a/docs/br16_pca.html" target="_blank">1fc87b5</a>
 </td>
 <td>
 fcg-bio
@@ -792,7 +739,7 @@ Build site.
 html
 </td>
 <td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/8fb5513f546f6646b28b879c3611e491e358b4cd/docs/br16_pca.html" target="_blank">8fb5513</a>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/8fb5513f546f6646b28b879c3611e491e358b4cd/docs/br16_pca.html" target="_blank">8fb5513</a>
 </td>
 <td>
 fcg-bio
@@ -809,7 +756,7 @@ Build site.
 html
 </td>
 <td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/8acaa646eebff98e6160ded07ba48258d757e6d7/docs/br16_pca.html" target="_blank">8acaa64</a>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/8acaa646eebff98e6160ded07ba48258d757e6d7/docs/br16_pca.html" target="_blank">8acaa64</a>
 </td>
 <td>
 fcg-bio
@@ -826,7 +773,7 @@ Build site.
 Rmd
 </td>
 <td>
-<a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics/blob/545ee28878a043453ec828b26ef18d6c110d8906/analysis/br16_pca.Rmd" target="_blank">545ee28</a>
+<a href="https://github.com/VU-QCB/diamantopoulou-ctc-dynamics/blob/545ee28878a043453ec828b26ef18d6c110d8906/analysis/br16_pca.Rmd" target="_blank">545ee28</a>
 </td>
 <td>
 fcg-bio
@@ -843,7 +790,7 @@ release v1.0
 html
 </td>
 <td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/74b189131a39d49fd9e79eaee6c8e76575069de6/docs/br16_pca.html" target="_blank">74b1891</a>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/74b189131a39d49fd9e79eaee6c8e76575069de6/docs/br16_pca.html" target="_blank">74b1891</a>
 </td>
 <td>
 fcg-bio
@@ -860,7 +807,7 @@ Build site.
 html
 </td>
 <td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/c0865c6165c3d4748ca1d329af7ee9a649bc865c/docs/br16_pca.html" target="_blank">c0865c6</a>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/c0865c6165c3d4748ca1d329af7ee9a649bc865c/docs/br16_pca.html" target="_blank">c0865c6</a>
 </td>
 <td>
 fcg-bio
@@ -877,7 +824,7 @@ Build site.
 html
 </td>
 <td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/a1365909e9e1773494c33418c8baf5adb462c53d/docs/br16_pca.html" target="_blank">a136590</a>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/a1365909e9e1773494c33418c8baf5adb462c53d/docs/br16_pca.html" target="_blank">a136590</a>
 </td>
 <td>
 fcg-bio
@@ -894,7 +841,7 @@ Build site.
 html
 </td>
 <td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/bfb622b5aac934265e71dc66dd5a0985a4fca3d1/docs/br16_pca.html" target="_blank">bfb622b</a>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/bfb622b5aac934265e71dc66dd5a0985a4fca3d1/docs/br16_pca.html" target="_blank">bfb622b</a>
 </td>
 <td>
 fcg-bio
@@ -911,13 +858,13 @@ Build site.
 html
 </td>
 <td>
-<a href="https://rawcdn.githack.com/TheAcetoLab/diamantopoulou-ctc-dynamics/1006c84c731de8ffc432a602cb2472a755530e58/docs/br16_pca.html" target="_blank">1006c84</a>
+<a href="https://rawcdn.githack.com/VU-QCB/diamantopoulou-ctc-dynamics/1006c84c731de8ffc432a602cb2472a755530e58/docs/br16_pca.html" target="_blank">1006c84</a>
 </td>
 <td>
 fcg-bio
 </td>
 <td>
-2022-04-26
+2022-04-25
 </td>
 <td>
 Build site.
@@ -928,13 +875,13 @@ Build site.
 Rmd
 </td>
 <td>
-<a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics/blob/0ded9f5eb929c7853186f31da3ed481e57e151e9/analysis/br16_pca.Rmd" target="_blank">0ded9f5</a>
+<a href="https://github.com/VU-QCB/diamantopoulou-ctc-dynamics/blob/0ded9f5eb929c7853186f31da3ed481e57e151e9/analysis/br16_pca.Rmd" target="_blank">0ded9f5</a>
 </td>
 <td>
 fcg-bio
 </td>
 <td>
-2022-04-26
+2022-04-25
 </td>
 <td>
 added final code
@@ -947,8 +894,7 @@ added final code
 </div>
 </div>
 </div>
-<div id="load-libraries-additional-functions-and-data"
-class="section level2">
+<div id="load-libraries-additional-functions-and-data" class="section level2">
 <h2>Load libraries, additional functions and data</h2>
 <p>Setup environment</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(<span class="at">results=</span><span class="st">&#39;asis&#39;</span>, <span class="at">echo=</span><span class="cn">TRUE</span>, <span class="at">message=</span><span class="cn">FALSE</span>, <span class="at">warning=</span><span class="cn">FALSE</span>, <span class="at">error=</span><span class="cn">FALSE</span>, <span class="at">fig.align =</span> <span class="st">&#39;center&#39;</span>, <span class="at">fig.width =</span> <span class="fl">3.5</span>, <span class="at">fig.asp =</span> <span class="fl">0.618</span>, <span class="at">dpi =</span> <span class="dv">600</span>, <span class="at">dev =</span> <span class="fu">c</span>(<span class="st">&quot;png&quot;</span>, <span class="st">&quot;pdf&quot;</span>), <span class="at">fig.showtext =</span> <span class="cn">TRUE</span>)</span>
@@ -991,8 +937,7 @@ class="section level2">
 <span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>                    <span class="st">`</span><span class="at">G1 score</span><span class="st">`</span> <span class="ot">=</span> <span class="st">&#39;G1_score&#39;</span>,</span>
 <span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>                    <span class="st">`</span><span class="at">G2M score</span><span class="st">`</span> <span class="ot">=</span> <span class="st">&#39;G2M_score&#39;</span>,</span>
 <span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>                    <span class="st">`</span><span class="at">S score</span><span class="st">`</span> <span class="ot">=</span> <span class="st">&#39;S_score&#39;</span>)</span></code></pre></div>
-<p>Quantify per-gene variation and select top-500 highly variable
-genes</p>
+<p>Quantify per-gene variation and select top-500 highly variable genes</p>
 <div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>fit_res <span class="ot">&lt;-</span> <span class="fu">modelGeneVar</span>(use_sce, <span class="at">assay.type =</span> <span class="st">&quot;logcpm&quot;</span>)</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>fit_md <span class="ot">&lt;-</span> <span class="fu">metadata</span>(fit_res)</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>hvg_var_bio <span class="ot">&lt;-</span> <span class="fu">getTopHVGs</span>(fit_res, <span class="at">n=</span><span class="dv">500</span>)</span>
@@ -1019,14 +964,9 @@ genes</p>
 <span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>         <span class="st">`</span><span class="at">G2M score</span><span class="st">`</span> <span class="ot">=</span> G2M_score,</span>
 <span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>         <span class="st">`</span><span class="at">S score</span><span class="st">`</span> <span class="ot">=</span> S_score)</span></code></pre></div>
 </div>
-<div id="correlation-of-pc-eigenvectors-with-metadata"
-class="section level2">
+<div id="correlation-of-pc-eigenvectors-with-metadata" class="section level2">
 <h2>Correlation of PC eigenvectors with metadata</h2>
-<p>Heatmap showing the Pearson’s correlation coefficient of PC1-7
-eigenvectors from gene expression with technical and biological
-variables in BR16-CDX CTCs. <em>P</em> values by two-sided Pearson’s
-correlation test (*<em>P</em> &lt; 0.01, **<em>P</em> &lt;0.001,
-***<em>P</em> &lt;0.0001).</p>
+<p>Heatmap showing the Pearson’s correlation coefficient of PC1-7 eigenvectors from gene expression with technical and biological variables in BR16-CDX CTCs. <em>P</em> values by two-sided Pearson’s correlation test (*<em>P</em> &lt; 0.01, **<em>P</em> &lt;0.001, ***<em>P</em> &lt;0.0001).</p>
 <div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>use_cex <span class="ot">&lt;-</span> <span class="dv">8</span><span class="sc">/</span><span class="dv">12</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">eigencorplot</span>(</span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  p,</span>
@@ -1072,21 +1012,20 @@ Date
 <tbody>
 <tr>
 <td>
-<a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics/blob/1006c84c731de8ffc432a602cb2472a755530e58/docs/figure/br16_pca.Rmd/br16_pca_eigencorplot-1.png" target="_blank">1006c84</a>
+<a href="https://github.com/VU-QCB/diamantopoulou-ctc-dynamics/blob/1006c84c731de8ffc432a602cb2472a755530e58/docs/figure/br16_pca.Rmd/br16_pca_eigencorplot-1.png" target="_blank">1006c84</a>
 </td>
 <td>
 fcg-bio
 </td>
 <td>
-2022-04-26
+2022-04-25
 </td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<div id="table-percentage-of-variance-associated-to-each-pc"
-class="section level3">
+<div id="table-percentage-of-variance-associated-to-each-pc" class="section level3">
 <h3>Table : Percentage of variance associated to each PC</h3>
 <div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>p<span class="sc">$</span>variance[<span class="dv">1</span><span class="sc">:</span>elbow_point] <span class="sc">%&gt;%</span> data.frame <span class="sc">%&gt;%</span> <span class="fu">set_names</span>(<span class="st">&#39;Variance&#39;</span>) <span class="sc">%&gt;%</span> </span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">caption =</span> <span class="st">&quot;Percentage of variance associated to each PC&quot;</span>) <span class="sc">%&gt;%</span> </span>
@@ -1718,10 +1657,7 @@ S score
 </div>
 <div id="biplot-pc4-and-pc5" class="section level2">
 <h2>Biplot PC4 and PC5</h2>
-<p>Plot showing the principal components PC4 and PC5 of gene expression
-in CTCs from NSG-CDX-BR16 mice. <em>Upper</em> and <em>right</em> panels
-show the density of values for active (<em>blue</em>) and rest phase
-(<em>red</em>).</p>
+<p>Plot showing the principal components PC4 and PC5 of gene expression in CTCs from NSG-CDX-BR16 mice. <em>Upper</em> and <em>right</em> panels show the density of values for active (<em>blue</em>) and rest phase (<em>red</em>).</p>
 <div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>PCx <span class="ot">&lt;-</span> <span class="st">&#39;PC4&#39;</span></span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>PCy<span class="ot">&lt;-</span> <span class="st">&#39;PC5&#39;</span></span>
 <span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -1843,13 +1779,13 @@ Date
 <tbody>
 <tr>
 <td>
-<a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics/blob/1006c84c731de8ffc432a602cb2472a755530e58/docs/figure/br16_pca.Rmd/br16_pca_4_5-1.png" target="_blank">1006c84</a>
+<a href="https://github.com/VU-QCB/diamantopoulou-ctc-dynamics/blob/1006c84c731de8ffc432a602cb2472a755530e58/docs/figure/br16_pca.Rmd/br16_pca_4_5-1.png" target="_blank">1006c84</a>
 </td>
 <td>
 fcg-bio
 </td>
 <td>
-2022-04-26
+2022-04-25
 </td>
 </tr>
 </tbody>
@@ -1885,7 +1821,7 @@ Date
 <tbody>
 <tr>
 <td>
-<a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics/blob/bfb622b5aac934265e71dc66dd5a0985a4fca3d1/docs/figure/br16_pca.Rmd/br16_pca_4_5_legend-1.png" target="_blank">bfb622b</a>
+<a href="https://github.com/VU-QCB/diamantopoulou-ctc-dynamics/blob/bfb622b5aac934265e71dc66dd5a0985a4fca3d1/docs/figure/br16_pca.Rmd/br16_pca_4_5_legend-1.png" target="_blank">bfb622b</a>
 </td>
 <td>
 fcg-bio
@@ -1896,13 +1832,13 @@ fcg-bio
 </tr>
 <tr>
 <td>
-<a href="https://github.com/TheAcetoLab/diamantopoulou-ctc-dynamics/blob/1006c84c731de8ffc432a602cb2472a755530e58/docs/figure/br16_pca.Rmd/br16_pca_4_5_legend-1.png" target="_blank">1006c84</a>
+<a href="https://github.com/VU-QCB/diamantopoulou-ctc-dynamics/blob/1006c84c731de8ffc432a602cb2472a755530e58/docs/figure/br16_pca.Rmd/br16_pca_4_5_legend-1.png" target="_blank">1006c84</a>
 </td>
 <td>
 fcg-bio
 </td>
 <td>
-2022-04-26
+2022-04-25
 </td>
 </tr>
 </tbody>
@@ -1912,101 +1848,92 @@ fcg-bio
 <br>
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
-<span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
-Session information
+<span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Session information
 </button>
 </p>
 <div id="workflowr-sessioninfo" class="collapse">
 <div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sessionInfo</span>()</span></code></pre></div>
-<p>R version 4.1.0 (2021-05-18) Platform: x86_64-apple-darwin17.0
-(64-bit) Running under: macOS Big Sur 10.16</p>
-<p>Matrix products: default BLAS:
-/Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRblas.dylib
-LAPACK:
-/Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRlapack.dylib</p>
-<p>locale: [1]
-en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8</p>
-<p>attached base packages: [1] grid parallel stats4 stats graphics
-grDevices utils<br />
-[8] datasets methods base</p>
+<p>R version 4.1.1 (2021-08-10) Platform: x86_64-apple-darwin17.0 (64-bit) Running under: macOS Big Sur 10.16</p>
+<p>Matrix products: default BLAS: /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRblas.0.dylib LAPACK: /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRlapack.dylib</p>
+<p>locale: [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8</p>
+<p>attached base packages: [1] grid stats4 stats graphics grDevices utils datasets [8] methods base</p>
 <p>other attached packages: [1] lattice_0.20-45 kableExtra_1.3.4<br />
-[3] knitr_1.36 gridExtra_2.3<br />
+[3] knitr_1.40 gridExtra_2.3<br />
 [5] ggalt_0.4.0 cowplot_1.1.1<br />
-[7] PCAtools_2.4.0 ggrepel_0.9.1<br />
-[9] scran_1.20.1 scater_1.20.1<br />
-[11] scuttle_1.2.1 SingleCellExperiment_1.14.1 [13]
-SummarizedExperiment_1.22.0 Biobase_2.52.0<br />
-[15] GenomicRanges_1.44.0 GenomeInfoDb_1.28.4<br />
-[17] IRanges_2.26.0 S4Vectors_0.30.2<br />
-[19] BiocGenerics_0.38.0 MatrixGenerics_1.4.3<br />
-[21] matrixStats_0.61.0 showtext_0.9-4<br />
-[23] showtextdb_3.0 sysfonts_0.8.5<br />
-[25] forcats_0.5.1 stringr_1.4.0<br />
-[27] dplyr_1.0.7 purrr_0.3.4<br />
-[29] readr_2.0.2 tidyr_1.1.4<br />
-[31] tibble_3.1.5 ggplot2_3.3.5<br />
-[33] tidyverse_1.3.1 workflowr_1.6.2</p>
-<p>loaded via a namespace (and not attached): [1] readxl_1.3.1
-backports_1.3.0<br />
-[3] systemfonts_1.0.2 plyr_1.8.6<br />
-[5] igraph_1.2.7 BiocParallel_1.26.2<br />
-[7] digest_0.6.28 htmltools_0.5.2<br />
-[9] viridis_0.6.2 fansi_0.5.0<br />
-[11] magrittr_2.0.1 ScaledMatrix_1.0.0<br />
-[13] cluster_2.1.2 tzdb_0.2.0<br />
-[15] limma_3.48.3 modelr_0.1.8<br />
-[17] extrafont_0.17 extrafontdb_1.0<br />
-[19] svglite_2.0.0 colorspace_2.0-2<br />
-[21] rvest_1.0.2 haven_2.4.3<br />
-[23] xfun_0.27 crayon_1.4.2<br />
-[25] RCurl_1.98-1.5 jsonlite_1.7.2<br />
-[27] glue_1.4.2 gtable_0.3.0<br />
-[29] zlibbioc_1.38.0 XVector_0.32.0<br />
-[31] webshot_0.5.2 DelayedArray_0.18.0<br />
-[33] proj4_1.0-10.1 BiocSingular_1.8.1<br />
-[35] Rttf2pt1_1.3.9 maps_3.4.0<br />
-[37] scales_1.1.1 DBI_1.1.1<br />
-[39] edgeR_3.34.1 Rcpp_1.0.7<br />
-[41] viridisLite_0.4.0 dqrng_0.3.0<br />
-[43] rsvd_1.0.5 metapod_1.0.0<br />
-[45] httr_1.4.2 RColorBrewer_1.1-2<br />
-[47] ellipsis_0.3.2 farver_2.1.0<br />
-[49] pkgconfig_2.0.3 sass_0.4.0<br />
-[51] dbplyr_2.1.1 locfit_1.5-9.4<br />
-[53] utf8_1.2.2 labeling_0.4.2<br />
-[55] tidyselect_1.1.1 rlang_0.4.12<br />
-[57] reshape2_1.4.4 later_1.3.0<br />
-[59] munsell_0.5.0 cellranger_1.1.0<br />
-[61] tools_4.1.0 cli_3.1.0<br />
-[63] generics_0.1.1 broom_0.7.10<br />
-[65] evaluate_0.14 fastmap_1.1.0<br />
-[67] yaml_2.2.1 fs_1.5.0<br />
-[69] sparseMatrixStats_1.4.2 whisker_0.4<br />
-[71] ash_1.0-15 xml2_1.3.2<br />
-[73] compiler_4.1.0 rstudioapi_0.13<br />
-[75] beeswarm_0.4.0 reprex_2.0.1<br />
-[77] statmod_1.4.36 bslib_0.3.1<br />
-[79] stringi_1.7.5 highr_0.9<br />
-[81] bluster_1.2.1 Matrix_1.3-4<br />
-[83] vctrs_0.3.8 pillar_1.6.4<br />
-[85] lifecycle_1.0.1 jquerylib_0.1.4<br />
-[87] BiocNeighbors_1.10.0 bitops_1.0-7<br />
-[89] irlba_2.3.3 httpuv_1.6.3<br />
-[91] R6_2.5.1 promises_1.2.0.1<br />
-[93] KernSmooth_2.23-20 vipor_0.4.5<br />
-[95] MASS_7.3-54 assertthat_0.2.1<br />
-[97] rprojroot_2.0.2 withr_2.4.2<br />
-[99] GenomeInfoDbData_1.2.6 hms_1.1.1<br />
-[101] beachmat_2.8.1 rmarkdown_2.11<br />
-[103] DelayedMatrixStats_1.14.3 git2r_0.28.0<br />
-[105] lubridate_1.8.0 ggbeeswarm_0.6.0</p>
+[7] PCAtools_2.6.0 ggrepel_0.9.1<br />
+[9] scran_1.22.1 scater_1.22.0<br />
+[11] scuttle_1.4.0 SingleCellExperiment_1.16.0 [13] SummarizedExperiment_1.24.0 Biobase_2.54.0<br />
+[15] GenomicRanges_1.46.1 GenomeInfoDb_1.30.0<br />
+[17] IRanges_2.28.0 S4Vectors_0.32.3<br />
+[19] BiocGenerics_0.40.0 MatrixGenerics_1.6.0<br />
+[21] matrixStats_0.61.0 showtext_0.9-5<br />
+[23] showtextdb_3.0 sysfonts_0.8.8<br />
+[25] forcats_0.5.2 stringr_1.4.1<br />
+[27] dplyr_1.0.10 purrr_0.3.5<br />
+[29] readr_2.1.1 tidyr_1.2.1<br />
+[31] tibble_3.1.8 ggplot2_3.3.6<br />
+[33] tidyverse_1.3.1</p>
+<p>loaded via a namespace (and not attached): [1] readxl_1.3.1 backports_1.4.1<br />
+[3] workflowr_1.7.0 systemfonts_1.0.4<br />
+[5] plyr_1.8.7 igraph_1.3.5<br />
+[7] BiocParallel_1.28.3 digest_0.6.29<br />
+[9] htmltools_0.5.3 viridis_0.6.2<br />
+[11] fansi_1.0.3 magrittr_2.0.3<br />
+[13] ScaledMatrix_1.2.0 cluster_2.1.2<br />
+[15] tzdb_0.2.0 limma_3.50.0<br />
+[17] modelr_0.1.8 extrafont_0.18<br />
+[19] svglite_2.1.0 extrafontdb_1.0<br />
+[21] colorspace_2.0-3 rvest_1.0.2<br />
+[23] haven_2.4.3 xfun_0.33<br />
+[25] crayon_1.5.2 RCurl_1.98-1.5<br />
+[27] jsonlite_1.8.2 glue_1.6.2<br />
+[29] gtable_0.3.1 zlibbioc_1.40.0<br />
+[31] XVector_0.34.0 webshot_0.5.4<br />
+[33] DelayedArray_0.20.0 proj4_1.0-11<br />
+[35] BiocSingular_1.10.0 Rttf2pt1_1.3.11<br />
+[37] maps_3.4.0 scales_1.2.1<br />
+[39] DBI_1.1.2 edgeR_3.36.0<br />
+[41] Rcpp_1.0.9 viridisLite_0.4.1<br />
+[43] dqrng_0.3.0 rsvd_1.0.5<br />
+[45] metapod_1.2.0 httr_1.4.2<br />
+[47] RColorBrewer_1.1-3 ellipsis_0.3.2<br />
+[49] farver_2.1.1 pkgconfig_2.0.3<br />
+[51] sass_0.4.2 dbplyr_2.1.1<br />
+[53] locfit_1.5-9.4 utf8_1.2.2<br />
+[55] labeling_0.4.2 tidyselect_1.1.2<br />
+[57] rlang_1.0.6 reshape2_1.4.4<br />
+[59] later_1.3.0 munsell_0.5.0<br />
+[61] cellranger_1.1.0 tools_4.1.1<br />
+[63] cachem_1.0.6 cli_3.4.1<br />
+[65] generics_0.1.3 broom_1.0.1<br />
+[67] evaluate_0.17 fastmap_1.1.0<br />
+[69] yaml_2.3.5 fs_1.5.2<br />
+[71] sparseMatrixStats_1.6.0 whisker_0.4<br />
+[73] ash_1.0-15 xml2_1.3.3<br />
+[75] compiler_4.1.1 rstudioapi_0.13<br />
+[77] beeswarm_0.4.0 reprex_2.0.1<br />
+[79] statmod_1.4.36 bslib_0.4.0<br />
+[81] stringi_1.7.8 highr_0.9<br />
+[83] bluster_1.4.0 Matrix_1.5-1<br />
+[85] vctrs_0.4.2 pillar_1.8.1<br />
+[87] lifecycle_1.0.3 jquerylib_0.1.4<br />
+[89] BiocNeighbors_1.12.0 bitops_1.0-7<br />
+[91] irlba_2.3.5.1 httpuv_1.6.6<br />
+[93] R6_2.5.1 promises_1.2.0.1<br />
+[95] KernSmooth_2.23-20 vipor_0.4.5<br />
+[97] MASS_7.3-55 assertthat_0.2.1<br />
+[99] rprojroot_2.0.3 withr_2.5.0<br />
+[101] GenomeInfoDbData_1.2.7 parallel_4.1.1<br />
+[103] hms_1.1.1 beachmat_2.10.0<br />
+[105] rmarkdown_2.11 DelayedMatrixStats_1.16.0 [107] git2r_0.30.1 lubridate_1.8.0<br />
+[109] ggbeeswarm_0.6.0</p>
 </div>
 </div>
 
 
 <!-- Adjust MathJax settings so that all math formulae are shown using
 TeX fonts only; see
-http://docs.mathjax.org/en/latest/configuration.html.  This will make
+https://docs.mathjax.org/en/latest/web/configuration.html. This will make
 the presentation more consistent at the cost of the webpage sometimes
 taking slightly longer to load. Note that this only works because the
 footer is added to webpages before the MathJax javascript. -->

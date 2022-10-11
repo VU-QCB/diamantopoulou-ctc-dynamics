@@ -40,6 +40,9 @@ The results form our analyses are listed below in webpage format. They were gene
 
 Files containing pre-computed results from differential expression or gene-set enrichment analyses were deposited in [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6358987.svg)](https://doi.org/10.5281/zenodo.6358987). In order to generate those files again change the option `eval = FALSE` to `eval = TRUE` in the specific code chunk from the R Markdown file.
 
+## Package installation
+To install all required packages automatically, use: `source("./code/R-functions/install_reqd_pkgs.r")`
+
 ## Analyses
 
 -   [Run differential gene expression analysis, GSEA and GSVA](0_differential_expression_gsea_gsva.html)
