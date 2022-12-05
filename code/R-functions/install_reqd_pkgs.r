@@ -8,7 +8,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 req_pkgs <- c("tidyverse","scater","scran","edgeR","clusterProfiler","GSVA","foreach",
               "showtext","circlize","RColorBrewer","DT","cowplot","ggbeeswarm","ggpubr",
               "ggrepel","clusterProfiler","enrichplot","ComplexHeatmap","limma","colorblindr",
-              "grid","gridExtra","ggalt","kableExtra","PCAtools")
+              "grid","gridExtra","ggalt","kableExtra","PCAtools","devtools")
 
 inst_pkgs <- installed.packages()[,"Package"]
 
